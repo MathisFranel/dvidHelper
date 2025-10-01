@@ -1,0 +1,2 @@
+wget https://raw.githubusercontent.com/Vulcainreo/DVID/refs/heads/master/trainings/hardware/findTheDatasheet/findTheDatasheet.ino.arduino_standard.hex
+avrdude -v -p atmega328p -P usb -c usbasp -U flash:w:findTheDatasheet.ino.arduino_standard.hex:i
