@@ -1,0 +1,2 @@
+wget https://raw.githubusercontent.com/Vulcainreo/DVID/refs/heads/master/trainings/bluetooth/characteristics/characteristics.ino.arduino_standard.hex
+avrdude -v -p atmega328p -P usb -c usbasp -U flash:w:characteristics.ino.arduino_standard.hex:i

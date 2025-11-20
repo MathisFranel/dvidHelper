@@ -1,0 +1,2 @@
+wget https://raw.githubusercontent.com/Vulcainreo/DVID/refs/heads/master/trainings/bluetooth/advertising/advertising.ino.arduino_standard.hex
+avrdude -v -p atmega328p -P usb -c usbasp -U flash:w:advertising.ino.arduino_standard.hex:i
